@@ -4,7 +4,7 @@ A simple interactive Streamlit web app that predicts whether a telecom customer 
 
 ## 🚀 Live App
 
-👉 [Click here to use the app](https://your-username-streamlit-app-name.streamlit.app)
+👉 [Click here to use the app]([https://telco-customer-churn--prediction.streamlit.app])
 
 ## 📦 Features
 
@@ -23,11 +23,17 @@ A simple interactive Streamlit web app that predicts whether a telecom customer 
 
 ## 🧠 How It Works
 
-The model is trained on the [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn), using various features like contract type, monthly charges, and internet service.
+The model is trained on the [Telco Customer Churn dataset]([https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv]), using various features like contract type, monthly charges, and internet service.
 
 It outputs:
 - **Churn prediction (Yes/No)**
 - **Churn probability (%)**
 
 ## 📁 Project Structure
+customer-churn--prediction/
+├── app.py # Streamlit web app
+├── churn_model_pipeline.pkl # Trained ML pipeline
+├── requirements.txt # Python dependencies
+└── README.md # Project description
+└── train_model.py
 
