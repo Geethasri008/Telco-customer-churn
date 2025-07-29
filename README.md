@@ -4,7 +4,8 @@ A simple interactive Streamlit web app that predicts whether a telecom customer 
 
 ## 🚀 Live App
 
-👉 [Click here to use the app]([https://telco-customer-churn--prediction.streamlit.app])
+👉 [Click here to use the app](https://telco-customer-churn--prediction.streamlit.app/)
+
 
 ## 📦 Features
 
